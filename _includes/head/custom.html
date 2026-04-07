@@ -14,4 +14,100 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<style>
+/* Single column layout */
+.profile-name {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #159957;
+  text-align: left;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-image img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.profile-details {
+  flex: 1;
+  font-size: 0.95rem;
+}
+
+.profile-details p {
+  margin: 0.5rem 0;
+  font-size: 0.95rem;
+}
+
+.profile-details i {
+  width: 24px;
+  color: #555;
+}
+
+.profile-details a {
+  color: #159957;
+}
+
+/* Hide the page title since we have our own header */
+.page__title {
+  display: none;
+}
+
+/* Section styling */
+.page__content {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.page__content h2 {
+  margin-top: 2rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #159957;
+  font-size: 1.5rem;
+}
+
+.page__content p {
+  font-size: 0.95rem;
+}
+
+/* Single column - wider layout */
+#main {
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+@media (max-width: 768px) {
+  .profile-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-image img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .profile-details p {
+    text-align: center;
+  }
+
+  #main {
+    max-width: 95%;
+    padding: 1rem;
+  }
+}
+</style>
+
 <!-- end custom head snippets -->
