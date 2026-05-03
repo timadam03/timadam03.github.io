@@ -73,19 +73,6 @@ After focusing on art and architecture in high school, I shifted towards program
 
 </div>
 
-<script>
-document.querySelectorAll('.abstract-toggle').forEach(function(btn) {
-  btn.addEventListener('click', function() {
-    var content = this.nextElementSibling;
-    var isExpanded = this.getAttribute('aria-expanded') === 'true';
-    this.setAttribute('aria-expanded', !isExpanded);
-    content.hidden = isExpanded;
-    var arrow = this.querySelector('.abstract-arrow');
-    arrow.style.transform = isExpanded ? '' : 'rotate(180deg)';
-  });
-});
-</script>
-
 ## Education
 
 <div class="education-timeline">
@@ -140,4 +127,3 @@ document.querySelectorAll('.abstract-toggle').forEach(function(btn) {
   <p class="project-meta">In cooperation with Danfoss</p>
   <p class="project-desc">Investigating the utilization of different AI models for predicting and explaining the Danish energy markets.</p>
 </div>
-
