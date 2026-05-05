@@ -24,6 +24,7 @@ exclude:
   - .github
   - .jekyll-cache
   - .sass-cache
+  - AGENTS.md
   - CLAUDE.md
   - Gemfile
   - Gemfile.lock
