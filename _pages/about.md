@@ -25,8 +25,8 @@ comments: false
 
 <section class="intro-panel">
   <div>
-    <p>I am in my sixth semester of the BSc in Software Engineering at the University of Southern Denmark and currently working on my bachelor's thesis. After finishing high school in Hamburg with a focus on art and architecture, I moved into programming and later into AI research.</p>
-    <p>An exchange semester at HKUST helped sharpen that direction through coursework in machine learning, large language models, and data analysis. Next, I am looking to continue with a master's degree in AI or Applied AI, with a strong interest in civil engineering, infrastructure, and data-driven systems.</p>
+    <p>I am a final-year BSc Software Engineering student at the University of Southern Denmark, currently writing my bachelor’s thesis in collaboration with Danfoss. Over the course of my studies, I have become increasingly focused on applied AI, especially large language models, agent-based systems, and the use of intelligent systems in real-world domains.</p>
+    <p>An exchange semester at HKUST helped sharpen that direction through coursework in machine learning, large language models, and data analysis. Next, I am looking to continue with a master’s degree in AI or Applied AI, with a strong interest in civil engineering, infrastructure, and data-driven systems.</p>
   </div>
 </section>
 
@@ -126,6 +126,13 @@ comments: false
 </div>
 
 ## Ongoing Projects
+
+<style>
+  .paper-item::before,
+  .project-item::before {
+    content: none;
+  }
+</style>
 
 <div class="project-item">
   <h3 class="project-title">The Trader's Trinity: Forecasting Models, RL Agents, and LLM Judges for Day-Ahead Markets</h3>
