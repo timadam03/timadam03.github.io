@@ -6,55 +6,29 @@ share: false
 comments: false
 ---
 
-<section class="profile-section">
-  <div class="profile-copy">
-    <h1 class="profile-name">Tim Lukas Adam</h1>
-    <p class="profile-lede">Final-year Software Engineering student with a focus on applied artificial intelligence, large language models, and data-driven systems. Experienced in developing and evaluating AI solutions through industry-linked projects and research, including local LLM deployment, fine-tuning, benchmarking, and multi-agent systems.</p>
-  </div>
+<div class="home-layout">
+<aside class="profile-sidebar">
   <div class="profile-image">
     <img src="/images/profile.png" alt="Tim Lukas Adam" />
   </div>
+  <h2 class="sidebar-name">Tim Lukas Adam</h2>
+  <p class="sidebar-role">Incoming MSc student in Autonomous Systems at DTU.</p>
   <div class="profile-details">
-    <p><i class="fas fa-location-dot"></i> Sonderborg / Hamburg</p>
-    <p><i class="fas fa-building-columns"></i> SDU University of Southern Denmark</p>
+    <p><i class="fas fa-location-dot"></i> Copenhagen / Hamburg</p>
+    <p><i class="fas fa-building-columns"></i> SDU Data &amp; Intelligence Lab</p>
     <p><i class="fas fa-envelope"></i> <a href="mailto:timlukas.adam@gmail.com">Email</a></p>
     <p><i class="fab fa-github"></i> <a href="https://github.com/timadam03">GitHub</a></p>
     <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/tim-lukas-adam-3116633b0/">LinkedIn</a></p>
   </div>
-</section>
+</aside>
 
-<section class="intro-panel">
-  <div>
-    <p>I am in my sixth semester of the BSc in Software Engineering at the University of Southern Denmark and currently working on my bachelor's thesis. After finishing high school in Hamburg with a focus on art and architecture, I moved into programming and later into AI research.</p>
-    <p>An exchange semester at HKUST helped sharpen that direction through coursework in machine learning, large language models, and data analysis. Next, I am looking to continue with a master's degree in AI or Applied AI, with a strong interest in civil engineering, infrastructure, and data-driven systems.</p>
+<main class="home-main" markdown="1">
+<header class="profile-section">
+  <div class="profile-copy">
+    <h1 class="profile-name">Tim Lukas Adam</h1>
+    <p class="profile-lede">I recently completed a BSc in Software Engineering at the University of Southern Denmark and will begin the MSc in Autonomous Systems at DTU in September 2026. I currently collaborate on applied AI research at the SDU Data &amp; Intelligence Lab. My interests include practical and observable AI, language models, agentic systems, and intelligent systems for infrastructure and energy.</p>
   </div>
-</section>
-
-## Interests
-
-<div class="finding-grid interest-grid">
-  <div>
-    <span>1.</span>
-    <h3>LLM scaling laws and limitations</h3>
-    <p>Understanding where model capability grows, saturates, or breaks.</p>
-  </div>
-  <div>
-    <span>2.</span>
-    <h3>Agentic systems</h3>
-    <p>Tool-using systems with observable decisions.</p>
-  </div>
-  <div>
-    <span>3.</span>
-    <h3>Small language models</h3>
-    <p>Efficient models for local and practical AI.</p>
-  </div>
-  <div>
-    <span>4.</span>
-    <h3>Applied AI systems</h3>
-    <p>AI for infrastructure and data-driven systems.</p>
-  </div>
-</div>
-
+</header>
 
 ## Research
 
@@ -123,14 +97,83 @@ comments: false
     </div>
   </div>
 
+  <div class="paper-item" data-href="https://arxiv.org/abs/2605.10601" role="link" tabindex="0">
+    <a class="paper-card-hitbox" href="https://arxiv.org/abs/2605.10601" aria-label="Open The Open-Box Fallacy on arXiv"></a>
+    <h3 class="paper-title">The Open-Box Fallacy: Why AI Deployment Needs a Calibrated Verification Regime</h3>
+    <div class="paper-meta-line">
+      <span class="paper-authors">Phongsakon Mark Konrad, <strong>Tim Lukas Adam</strong>, Anders C. H. Merrild, Riccardo Terrenzi, Raffaele De Rosa, Taha Tanyel, Serkan Ayvaz</span>
+    </div>
+    <div class="paper-meta-line">
+      <span class="paper-venue">Preprint, arXiv:2605.10601</span>
+      <span class="paper-status status-submitted">Preprint</span>
+    </div>
+    <button class="abstract-toggle" aria-expanded="false">
+      <span class="abstract-label">Summary</span>
+      <svg class="abstract-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none">
+        <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </button>
+    <div class="abstract-content" hidden>
+      <p>This paper argues that transparency alone is not sufficient for trustworthy AI deployment. It proposes calibrated verification and a six-component Verification Coverage standard for governing AI systems in sensitive domains.</p>
+    </div>
+  </div>
+
 </div>
 
-## Ongoing Projects
+## Experience
 
-<div class="project-item">
-  <h3 class="project-title">The Trader's Trinity: Forecasting Models, RL Agents, and LLM Judges for Day-Ahead Markets</h3>
-  <p class="project-meta">Bachelor Thesis Project in cooperation with Danfoss</p>
-  <p class="project-desc">Investigating how forecasting models, reinforcement learning agents, and LLM-based judges can predict and explain behavior in Danish energy markets.</p>
+<style>
+  .paper-item::before,
+  .project-item::before {
+    content: none;
+  }
+</style>
+
+<div class="experience-list">
+  <div class="experience-item">
+    <div>
+      <h3>Research Collaborator</h3>
+      <p>SDU Data &amp; Intelligence Lab · Sønderborg, Denmark</p>
+    </div>
+    <span>2026 — Present</span>
+    <p>Applied AI and machine-learning research spanning problem formulation, experimental design, implementation, analysis, and writing.</p>
+  </div>
+  <div class="experience-item">
+    <div>
+      <h3>Student Ambassador</h3>
+      <p>University of Southern Denmark · Sønderborg, Denmark</p>
+    </div>
+    <span>2024 — 2026</span>
+    <p>Represented SDU at national and international education fairs and communicated the student experience to prospective students.</p>
+  </div>
+  <div class="experience-item">
+    <div>
+      <h3>Student Assistant, IT Service</h3>
+      <p>University of Southern Denmark · Sønderborg, Denmark</p>
+    </div>
+    <span>2024 — 2025</span>
+    <p>Supported students and staff with day-to-day IT service requests and technical issues.</p>
+  </div>
+</div>
+
+## Selected Projects
+
+<div class="project-list">
+  <div class="project-item">
+    <h3 class="project-title">Heimdall: Only the Safe Shall Pass</h3>
+    <p class="project-meta">Bachelor Thesis · Danfoss · 2026</p>
+    <p class="project-desc">A conformal verifier between autonomous bidders and the Nordic electricity balancing market. Co-developed as an end-to-end system combining probabilistic forecasting, conformal prediction, and LLM-based bidding agents to make market bids safer and auditable. Awarded best bachelor thesis in the SDU Software Engineering programme and nominated for Best TEK Bachelor Thesis 2026.</p>
+  </div>
+  <div class="project-item">
+    <h3 class="project-title">Automated Tag and Summary Generation for Audio/Video Content</h3>
+    <p class="project-meta">SpeedAdmin · Spring 2025</p>
+    <p class="project-desc">Developed a locally deployed AI pipeline to transcribe, summarize, and categorize educational audio and video content.</p>
+  </div>
+  <div class="project-item">
+    <h3 class="project-title">Data Analysis for Transportation Systems</h3>
+    <p class="project-meta">HKUST · Fall 2025</p>
+    <p class="project-desc">Analysed smart-card transportation data using queueing models and machine learning to identify travel patterns and factors affecting waiting and transfer times.</p>
+  </div>
 </div>
 
 ## Education
@@ -140,29 +183,36 @@ comments: false
   <div class="edu-item">
     <div class="edu-marker"><div class="edu-dot"></div><div class="edu-line"></div></div>
     <div class="edu-content">
-      <h3 class="edu-title">Semester Abroad</h3>
+      <h3 class="edu-title">MSc Autonomous Systems</h3>
       <div class="edu-meta">
-        <span class="edu-date">Fall 2025</span>
+        <span class="edu-date">2026 — Present</span>
       </div>
-      <p class="edu-venue">Hong Kong University of Science and Technology (HKUST)</p>
-      <p class="edu-desc">Selected courses focused on machine learning, language models, and applied data analysis:</p>
-      <ul class="edu-courses">
-        <li>COMP4211 Machine Learning</li>
-        <li>COMP4901B Large Language Models</li>
-        <li>CIVL4610 Data Analysis for Smart Transportation Systems</li>
-      </ul>
+      <p class="edu-venue">Technical University of Denmark (DTU)</p>
+      <p class="edu-desc">Incoming September 2026.</p>
     </div>
   </div>
 
   <div class="edu-item">
     <div class="edu-marker"><div class="edu-dot"></div><div class="edu-line"></div></div>
     <div class="edu-content">
-      <h3 class="edu-title">Bachelor of Software Engineering</h3>
+      <h3 class="edu-title">BSc in Engineering, Software Engineering</h3>
       <div class="edu-meta">
-        <span class="edu-date">2023 — Present</span>
+        <span class="edu-date">2023 — 2026</span>
       </div>
       <p class="edu-venue">University of Southern Denmark, Sonderborg</p>
-      <p class="edu-desc">Project-oriented and applied program with semester projects often developed with companies around real cases and data.</p>
+      <p class="edu-desc">Graduated June 2026. Project-oriented programme with semester projects developed around real company cases and data; bachelor thesis completed in cooperation with Danfoss.</p>
+    </div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-marker"><div class="edu-dot"></div><div class="edu-line"></div></div>
+    <div class="edu-content">
+      <h3 class="edu-title">Exchange Semester</h3>
+      <div class="edu-meta">
+        <span class="edu-date">Fall 2025</span>
+      </div>
+      <p class="edu-venue">Hong Kong University of Science and Technology (HKUST)</p>
+      <p class="edu-desc">Machine Learning; Large Language Models; Data Analysis for Smart Transportation Systems.</p>
     </div>
   </div>
 
@@ -173,8 +223,12 @@ comments: false
       <div class="edu-meta">
         <span class="edu-date">2022</span>
       </div>
-      <p class="edu-venue">Gymnasium Kaiser-Friedrich-Ufer, Hamburg</p>
+      <p class="edu-venue">Gymnasium Kaiser-Friedrich-Ufer · Hamburg, Germany</p>
+      <p class="edu-desc">Final grade: 1.5.</p>
     </div>
   </div>
 
+</div>
+
+</main>
 </div>
