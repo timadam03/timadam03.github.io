@@ -2,7 +2,7 @@
 
 <style>
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Manrope:wght@500;600&display=swap');
 
 /* Color palette */
 :root {
@@ -2583,6 +2583,34 @@ ul.edu-courses li {
   .home-main .profile-section {
     display: none;
   }
+}
+
+/* Geometric display type and profile crop refinement */
+.profile-name,
+.page__content .sidebar-name,
+.page__content h2,
+.research-section h2 {
+  font-family: 'Manrope', 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.profile-name,
+.page__content .sidebar-name {
+  font-weight: 500;
+}
+
+.profile-image,
+.profile-sidebar .profile-image {
+  overflow: hidden;
+  border: 1px solid var(--line);
+}
+
+.profile-image img,
+.profile-sidebar .profile-image img {
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  margin: -6px 0 0 -2px;
+  border: 0;
+  object-fit: cover;
 }
 </style>
 

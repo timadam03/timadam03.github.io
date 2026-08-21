@@ -26,9 +26,13 @@ comments: false
 <header class="profile-section">
   <div class="profile-copy">
     <h1 class="profile-name">Tim Lukas Adam</h1>
-    <p class="profile-lede">I recently completed a BSc in Software Engineering at the University of Southern Denmark and will begin the MSc in Autonomous Systems at DTU in September 2026. I currently collaborate on applied AI research at the SDU Data &amp; Intelligence Lab. My interests include practical and observable AI, language models, agentic systems, and intelligent systems for infrastructure and energy.</p>
+    <p class="profile-lede">I recently completed a BSc in Software Engineering at the University of Southern Denmark and will begin the MSc in Autonomous Systems at DTU in September 2026. I currently work as a research collaborator at the SDU Data &amp; Intelligence Lab, contributing to applied AI research from problem formulation and implementation to evaluation and scientific writing. My work so far has centered on language models, agentic systems, trustworthy AI, and intelligent systems for energy and infrastructure.</p>
   </div>
 </header>
+
+## Interests &amp; Focus
+
+<p class="focus-copy">As I move into autonomous systems, I am broadening this foundation toward AI that can perceive, decide, and act in dynamic environments. I am especially interested in deep learning, computer vision and machine perception, reinforcement learning, and embodied AI—and in connecting these areas with the reasoning and agentic approaches I already work with. Questions around learning under uncertainty, visual understanding, sequential decision-making, robot learning, and the integration of learned policies with planning and control are particularly compelling to me. More broadly, I enjoy building intelligent systems at the boundary between research and real-world application, where reliable perception and decisions matter.</p>
 
 ## Research
 
@@ -120,41 +124,12 @@ comments: false
 
 </div>
 
-## Experience
-
 <style>
   .paper-item::before,
   .project-item::before {
     content: none;
   }
 </style>
-
-<div class="experience-list">
-  <div class="experience-item">
-    <div>
-      <h3>Research Collaborator</h3>
-      <p>SDU Data &amp; Intelligence Lab · Sønderborg, Denmark</p>
-    </div>
-    <span>2026 — Present</span>
-    <p>Applied AI and machine-learning research spanning problem formulation, experimental design, implementation, analysis, and writing.</p>
-  </div>
-  <div class="experience-item">
-    <div>
-      <h3>Student Ambassador</h3>
-      <p>University of Southern Denmark · Sønderborg, Denmark</p>
-    </div>
-    <span>2024 — 2026</span>
-    <p>Represented SDU at national and international education fairs and communicated the student experience to prospective students.</p>
-  </div>
-  <div class="experience-item">
-    <div>
-      <h3>Student Assistant, IT Service</h3>
-      <p>University of Southern Denmark · Sønderborg, Denmark</p>
-    </div>
-    <span>2024 — 2025</span>
-    <p>Supported students and staff with day-to-day IT service requests and technical issues.</p>
-  </div>
-</div>
 
 ## Selected Projects
 
@@ -174,60 +149,6 @@ comments: false
     <p class="project-meta">HKUST · Fall 2025</p>
     <p class="project-desc">Analysed smart-card transportation data using queueing models and machine learning to identify travel patterns and factors affecting waiting and transfer times.</p>
   </div>
-</div>
-
-## Education
-
-<div class="education-timeline">
-
-  <div class="edu-item">
-    <div class="edu-marker"><div class="edu-dot"></div><div class="edu-line"></div></div>
-    <div class="edu-content">
-      <h3 class="edu-title">MSc Autonomous Systems</h3>
-      <div class="edu-meta">
-        <span class="edu-date">2026 — Present</span>
-      </div>
-      <p class="edu-venue">Technical University of Denmark (DTU)</p>
-      <p class="edu-desc">Incoming September 2026.</p>
-    </div>
-  </div>
-
-  <div class="edu-item">
-    <div class="edu-marker"><div class="edu-dot"></div><div class="edu-line"></div></div>
-    <div class="edu-content">
-      <h3 class="edu-title">BSc in Engineering, Software Engineering</h3>
-      <div class="edu-meta">
-        <span class="edu-date">2023 — 2026</span>
-      </div>
-      <p class="edu-venue">University of Southern Denmark, Sonderborg</p>
-      <p class="edu-desc">Graduated June 2026. Project-oriented programme with semester projects developed around real company cases and data; bachelor thesis completed in cooperation with Danfoss.</p>
-    </div>
-  </div>
-
-  <div class="edu-item">
-    <div class="edu-marker"><div class="edu-dot"></div><div class="edu-line"></div></div>
-    <div class="edu-content">
-      <h3 class="edu-title">Exchange Semester</h3>
-      <div class="edu-meta">
-        <span class="edu-date">Fall 2025</span>
-      </div>
-      <p class="edu-venue">Hong Kong University of Science and Technology (HKUST)</p>
-      <p class="edu-desc">Machine Learning; Large Language Models; Data Analysis for Smart Transportation Systems.</p>
-    </div>
-  </div>
-
-  <div class="edu-item">
-    <div class="edu-marker"><div class="edu-dot"></div><div class="edu-line"></div></div>
-    <div class="edu-content">
-      <h3 class="edu-title">German Abitur — High School Diploma</h3>
-      <div class="edu-meta">
-        <span class="edu-date">2022</span>
-      </div>
-      <p class="edu-venue">Gymnasium Kaiser-Friedrich-Ufer · Hamburg, Germany</p>
-      <p class="edu-desc">Final grade: 1.5.</p>
-    </div>
-  </div>
-
 </div>
 
 </main>
