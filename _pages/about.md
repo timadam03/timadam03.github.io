@@ -26,13 +26,13 @@ comments: false
 <header class="profile-section">
   <div class="profile-copy">
     <h1 class="profile-name">Tim Lukas Adam</h1>
-    <p class="profile-lede">I recently completed a BSc in Software Engineering at the University of Southern Denmark and will begin the MSc in Autonomous Systems at DTU in September 2026. I currently work as a research collaborator at the SDU Data &amp; Intelligence Lab, contributing to applied AI research from problem formulation and implementation to evaluation and scientific writing. My work so far has centered on language models, agentic systems, trustworthy AI, and intelligent systems for energy and infrastructure.</p>
+    <p class="profile-lede">I recently completed a BSc in Software Engineering at the <a href="https://www.sdu.dk/en/">University of Southern Denmark</a> after an exchange semester at <a href="https://hkust.edu.hk/">HKUST</a>, and will begin the MSc in Autonomous Systems at <a href="https://www.dtu.dk/english/">DTU</a> in September 2026. I currently work as a research collaborator with the <a href="https://aiml-sdu.github.io/">SDU Data &amp; Intelligence Lab</a>, contributing to applied AI research from problem formulation and implementation to evaluation and scientific writing. My work so far has centered on language models, agentic systems, trustworthy AI, and intelligent systems for energy and infrastructure.</p>
   </div>
 </header>
 
-## Interests &amp; Focus
+## Current Focus
 
-<p class="focus-copy">As I move into autonomous systems, I am broadening this foundation toward AI that can perceive, decide, and act in dynamic environments. I am especially interested in deep learning, computer vision and machine perception, reinforcement learning, and embodied AI—and in connecting these areas with the reasoning and agentic approaches I already work with. Questions around learning under uncertainty, visual understanding, sequential decision-making, robot learning, and the integration of learned policies with planning and control are particularly compelling to me. More broadly, I enjoy building intelligent systems at the boundary between research and real-world application, where reliable perception and decisions matter.</p>
+<p class="focus-copy">My background in language models and agentic systems is expanding toward autonomous systems that can perceive, decide, and act in dynamic environments. I am particularly interested in computer vision and machine perception, reinforcement learning, and embodied AI, including how learned policies can work with planning and control. More broadly, I enjoy building intelligent systems that connect research with real-world application, especially where perception, uncertainty, and consequential decisions come together.</p>
 
 ## Research
 
@@ -137,7 +137,7 @@ comments: false
   <div class="project-item">
     <h3 class="project-title">Heimdall: Only the Safe Shall Pass</h3>
     <p class="project-meta">Bachelor Thesis · Danfoss · 2026</p>
-    <p class="project-desc">A conformal verifier between autonomous bidders and the Nordic electricity balancing market. Co-developed as an end-to-end system combining probabilistic forecasting, conformal prediction, and LLM-based bidding agents to make market bids safer and auditable. Awarded best bachelor thesis in the SDU Software Engineering programme and nominated for Best TEK Bachelor Thesis 2026.</p>
+    <p class="project-desc">A conformal verifier between autonomous bidders and the Nordic electricity balancing market. Co-developed as an end-to-end system combining probabilistic forecasting, conformal prediction, and LLM-based bidding agents to make market bids safer and auditable. <strong>Awarded best bachelor thesis in the SDU Software Engineering programme and nominated for Best TEK Bachelor Thesis 2026.</strong></p>
   </div>
   <div class="project-item">
     <h3 class="project-title">Automated Tag and Summary Generation for Audio/Video Content</h3>
