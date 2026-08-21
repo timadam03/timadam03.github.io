@@ -9,7 +9,7 @@ comments: false
 <div class="home-layout">
 <aside class="profile-sidebar">
   <div class="profile-image">
-    <img src="/images/profile.png" alt="Tim Lukas Adam" />
+    <img src="/images/profile-clean.png" alt="Tim Lukas Adam" />
   </div>
   <h2 class="sidebar-name">Tim Lukas Adam</h2>
   <p class="sidebar-role">Incoming MSc student in Autonomous Systems at DTU.</p>
