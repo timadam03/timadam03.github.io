@@ -34,7 +34,7 @@ comments: false
 
 <p class="focus-copy">My background in software engineering and applied AI is expanding toward autonomous systems that can perceive, decide, and act in dynamic environments. I am particularly interested in computer vision and machine perception, reinforcement learning, and embodied AI, while continuing to draw on my experience with language models and agentic systems. More broadly, I enjoy building intelligent systems that connect research with real-world application, especially where perception, uncertainty, and consequential decisions come together.</p>
 
-## Research
+## Publications
 
 <div class="paper-list">
 
