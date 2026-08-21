@@ -42,7 +42,7 @@ comments: false
     <a class="paper-card-hitbox" href="/files/cake-paper.pdf" aria-label="Open CAKE paper PDF"></a>
     <h3 class="paper-title">CAKE: Cloud Architecture Knowledge Evaluation of Large Language Models</h3>
     <div class="paper-meta-line">
-      <span class="paper-authors"><strong>Tim Lukas Adam</strong>, Phongsakon Mark Konrad, Riccardo Terrenzi, Florian Girardo Lukas, Rahame Yilmaz, Krzysztof Sierszecki, Serkan Ayvaz</span>
+      <span class="paper-authors"><strong>Tim Lukas Adam</strong>, Phongsakon Mark Konrad, Riccardo Terrenzi, Florian Girardo Lukas, Rahime Yilmaz, Krzysztof Sierszecki, Serkan Ayvaz</span>
     </div>
     <div class="paper-meta-line">
       <span class="paper-venue">KDA-AI Workshop, IEEE ICSA 2026</span>
@@ -105,7 +105,7 @@ comments: false
     <a class="paper-card-hitbox" href="https://arxiv.org/pdf/2605.10601" aria-label="Open The Open-Box Fallacy paper PDF"></a>
     <h3 class="paper-title">The Open-Box Fallacy: Why AI Deployment Needs a Calibrated Verification Regime</h3>
     <div class="paper-meta-line">
-      <span class="paper-authors">Phongsakon Mark Konrad, <strong>Tim Lukas Adam</strong>, Anders C. H. Merrild, Riccardo Terrenzi, Raffaele De Rosa, Taha Tanyel, Serkan Ayvaz</span>
+      <span class="paper-authors">Phongsakon Mark Konrad, <strong>Tim Lukas Adam</strong>, Ane Cathrine Holst Merrild, Riccardo Terrenzi, Rebecca De Rosa, Toygar Tanyel, Serkan Ayvaz</span>
     </div>
     <div class="paper-meta-line">
       <span class="paper-venue">Preprint, arXiv:2605.10601</span>
