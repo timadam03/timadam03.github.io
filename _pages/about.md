@@ -101,8 +101,8 @@ comments: false
     </div>
   </div>
 
-  <div class="paper-item" data-href="https://arxiv.org/abs/2605.10601" role="link" tabindex="0">
-    <a class="paper-card-hitbox" href="https://arxiv.org/abs/2605.10601" aria-label="Open The Open-Box Fallacy on arXiv"></a>
+  <div class="paper-item" data-href="https://arxiv.org/pdf/2605.10601" role="link" tabindex="0">
+    <a class="paper-card-hitbox" href="https://arxiv.org/pdf/2605.10601" aria-label="Open The Open-Box Fallacy paper PDF"></a>
     <h3 class="paper-title">The Open-Box Fallacy: Why AI Deployment Needs a Calibrated Verification Regime</h3>
     <div class="paper-meta-line">
       <span class="paper-authors">Phongsakon Mark Konrad, <strong>Tim Lukas Adam</strong>, Anders C. H. Merrild, Riccardo Terrenzi, Raffaele De Rosa, Taha Tanyel, Serkan Ayvaz</span>
@@ -112,13 +112,13 @@ comments: false
       <span class="paper-status status-submitted">Preprint</span>
     </div>
     <button class="abstract-toggle" aria-expanded="false">
-      <span class="abstract-label">Summary</span>
+      <span class="abstract-label">Abstract</span>
       <svg class="abstract-arrow" width="12" height="12" viewBox="0 0 12 12" fill="none">
         <path d="M2 4L6 8L10 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </button>
     <div class="abstract-content" hidden>
-      <p>This paper argues that transparency alone is not sufficient for trustworthy AI deployment. It proposes calibrated verification and a six-component Verification Coverage standard for governing AI systems in sensitive domains.</p>
+      <p>AI deployment in sensitive domains such as health care, credit, employment, and criminal justice is often treated as unsafe to authorize until model internals can be explained. This often leads to an excessive reliance on mechanistic interpretability to address a deployment challenge beyond its intended scope. We argue that the gate should instead be calibrated verification: authorization should be domain-scoped, independently checkable, monitored after release, accountable, contestable, and revocable. The reason is twofold. First, model capability is uneven across nearby tasks, so authorization must attach to a specific use rather than to a model in general. Second, societies have long governed opaque expertise through credentials, monitoring, liability, appeal, and revocation rather than mechanism-level explanation. Recent evidence reinforces this distinction between mechanistic understanding and deployment authority: a 53-percentage-point gap between internal representations and output correction shows that understanding may not translate into action, while one scoping review found that only 9.0% of FDA-approved AI/ML device documents contained a prospective post-market surveillance study. We propose Verification Coverage, a six-component reportable standard with a minimum-composition rule, as the metric that should sit beside capability scores in model cards, leaderboards, and regulatory disclosures.</p>
     </div>
   </div>
 
