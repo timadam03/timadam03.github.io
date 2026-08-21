@@ -26,7 +26,7 @@ comments: false
 <header class="profile-section">
   <div class="profile-copy">
     <h1 class="profile-name">Tim Lukas Adam</h1>
-    <p class="profile-lede">I recently completed a BSc in Software Engineering at the <a href="https://www.sdu.dk/en/">University of Southern Denmark</a> after an exchange semester at <a href="https://hkust.edu.hk/">HKUST</a>, and will begin the MSc in Autonomous Systems at <a href="https://www.dtu.dk/english/">DTU</a> in September 2026. I currently work as a research collaborator with the <a href="https://aiml-sdu.github.io/">SDU Data &amp; Intelligence Lab</a>, contributing to applied AI research from problem formulation and implementation to evaluation and scientific writing. My work so far has centered on language models, agentic systems, trustworthy AI, and intelligent systems for energy and infrastructure.</p>
+    <p class="profile-lede">I recently completed a BSc in Software Engineering at the <a href="https://www.sdu.dk/en/">University of Southern Denmark</a> after an exchange semester at <a href="https://hkust.edu.hk/">HKUST</a>, and will begin the MSc in Autonomous Systems at <a href="https://www.dtu.dk/english/">DTU</a> in September 2026. I currently work as a research collaborator with the <a href="https://aiml-sdu.github.io/">AIML Lab</a>, contributing to applied AI research from problem formulation and implementation to evaluation and scientific writing. My work so far has centered on language models, agentic systems, applied AI, and trustworthy AI.</p>
   </div>
 </header>
 
