@@ -2,7 +2,7 @@
 
 <style>
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Manrope:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&family=IBM+Plex+Sans:wght@400;500;600&family=Manrope:wght@500;600&display=swap');
 
 /* Color palette */
 :root {
@@ -2613,28 +2613,28 @@ ul.edu-courses li {
   object-fit: cover;
 }
 
-/* Restrained DTU-inspired accents */
+/* Single-colour accent experiment */
 :root {
-  --dtu-red: #990000;
-  --dtu-red-dark: #6f0000;
-  --dtu-red-soft: #f7ecec;
+  --accent-color: #245d47;
+  --accent-dark: #174231;
+  --accent-soft: #eff5f1;
 }
 
 .page__content h2,
 .research-section h2 {
-  color: var(--dtu-red);
+  color: var(--accent-color);
 }
 
 .page__content a:not(.paper-card-hitbox),
 .profile-details a {
-  color: var(--dtu-red) !important;
-  border-bottom-color: rgba(153, 0, 0, 0.32);
+  color: var(--accent-color) !important;
+  border-bottom-color: rgba(36, 93, 71, 0.32);
 }
 
 .page__content a:not(.paper-card-hitbox):hover,
 .profile-details a:hover {
-  color: var(--dtu-red-dark) !important;
-  border-bottom-color: var(--dtu-red-dark);
+  color: var(--accent-dark) !important;
+  border-bottom-color: var(--accent-dark);
 }
 
 .profile-lede a,
@@ -2645,28 +2645,48 @@ ul.edu-courses li {
 
 .profile-details i,
 .paper-status {
-  color: var(--dtu-red) !important;
+  color: var(--accent-color) !important;
 }
 
 .focus-copy {
   margin-top: 1.1rem !important;
   padding-left: 1rem;
-  border-left: 2px solid rgba(153, 0, 0, 0.55);
+  border-left: 2px solid rgba(36, 93, 71, 0.55);
 }
 
 .paper-item:hover {
-  background: var(--dtu-red-soft) !important;
-  box-shadow: inset 2px 0 0 var(--dtu-red) !important;
+  background: var(--accent-soft) !important;
+  box-shadow: inset 2px 0 0 var(--accent-color) !important;
 }
 
 .project-desc strong {
-  color: var(--dtu-red);
+  color: var(--accent-color);
   font-weight: 600;
 }
 
 ::selection {
   color: #ffffff;
-  background: var(--dtu-red);
+  background: var(--accent-color);
+}
+
+/* Display wordmark experiment */
+.profile-name {
+  color: var(--accent-color);
+  font-family: 'Bowlby One', 'Manrope', sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.045em;
+  line-height: 0.98;
+  text-transform: uppercase;
+}
+
+.page__content .sidebar-name {
+  color: var(--ink);
+  font-family: 'Manrope', 'IBM Plex Sans', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+  line-height: 1.2;
+  text-transform: none;
 }
 </style>
 

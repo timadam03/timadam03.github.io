@@ -15,7 +15,7 @@ comments: false
   <p class="sidebar-role">Incoming MSc student in Autonomous Systems at DTU.</p>
   <div class="profile-details">
     <p><i class="fas fa-location-dot"></i> Copenhagen / Hamburg</p>
-    <p><i class="fas fa-building-columns"></i> SDU Data &amp; Intelligence Lab</p>
+    <p><i class="fas fa-building-columns"></i> Technical University of Denmark (DTU)</p>
     <p><i class="fas fa-envelope"></i> <a href="mailto:timlukas.adam@gmail.com">Email</a></p>
     <p><i class="fab fa-github"></i> <a href="https://github.com/timadam03">GitHub</a></p>
     <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/tim-lukas-adam-3116633b0/">LinkedIn</a></p>
