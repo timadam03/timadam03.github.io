@@ -2881,6 +2881,50 @@ body,
     font-size: 0.86rem !important;
   }
 }
+
+/* Monochrome typography, retaining green only as a structural accent */
+.profile-name,
+.page__content h2,
+.research-section h2,
+.page__content a:not(.paper-card-hitbox),
+.profile-details a,
+.profile-details i,
+.paper-status,
+.project-desc strong {
+  color: var(--ink) !important;
+}
+
+body,
+.page__content,
+.home-main .profile-lede,
+.focus-copy,
+.sidebar-role,
+.profile-details p,
+.paper-authors,
+.paper-venue,
+.project-meta,
+.abstract-content p,
+.project-desc {
+  color: var(--ink) !important;
+}
+
+.page__content a:not(.paper-card-hitbox),
+.profile-details a {
+  border-bottom-color: rgba(17, 17, 17, 0.28);
+}
+
+.page__content a:not(.paper-card-hitbox):hover,
+.profile-details a:hover {
+  color: var(--ink) !important;
+  border-bottom-color: var(--ink);
+}
+
+@media (max-width: 800px) {
+  .profile-sidebar .profile-image {
+    grid-row: 1 / 3;
+    margin-top: 0.7rem !important;
+  }
+}
 </style>
 
 <script>
