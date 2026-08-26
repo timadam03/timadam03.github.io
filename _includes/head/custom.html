@@ -2882,8 +2882,11 @@ body,
   }
 }
 
-/* Monochrome typography, retaining green only as a structural accent */
-.profile-name,
+/* Green hierarchy: dark display title, original accent elsewhere */
+.profile-name {
+  color: var(--accent-dark) !important;
+}
+
 .page__content h2,
 .research-section h2,
 .page__content a:not(.paper-card-hitbox),
@@ -2891,7 +2894,7 @@ body,
 .profile-details i,
 .paper-status,
 .project-desc strong {
-  color: var(--ink) !important;
+  color: var(--accent-color) !important;
 }
 
 body,
@@ -2910,13 +2913,13 @@ body,
 
 .page__content a:not(.paper-card-hitbox),
 .profile-details a {
-  border-bottom-color: rgba(17, 17, 17, 0.28);
+  border-bottom-color: rgba(36, 93, 71, 0.32);
 }
 
 .page__content a:not(.paper-card-hitbox):hover,
 .profile-details a:hover {
-  color: var(--ink) !important;
-  border-bottom-color: var(--ink);
+  color: var(--accent-dark) !important;
+  border-bottom-color: var(--accent-dark);
 }
 
 @media (max-width: 800px) {
