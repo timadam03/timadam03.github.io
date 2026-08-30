@@ -39,15 +39,15 @@ comments: false
 
 <div class="paper-list">
 
-  <div class="paper-item" data-href="/files/cake-paper.pdf" role="link" tabindex="0">
-    <a class="paper-card-hitbox" href="/files/cake-paper.pdf" aria-label="Open CAKE paper PDF"></a>
+  <div class="paper-item" data-href="https://doi.org/10.1109/ICSA-C68850.2026.00073" role="link" tabindex="0">
+    <a class="paper-card-hitbox" href="https://doi.org/10.1109/ICSA-C68850.2026.00073" aria-label="Open CAKE proceedings paper"></a>
     <h3 class="paper-title">CAKE: Cloud Architecture Knowledge Evaluation of Large Language Models</h3>
     <div class="paper-meta-line">
       <span class="paper-authors"><strong>Tim Lukas Adam</strong>, Phongsakon Mark Konrad, Riccardo Terrenzi, Florian Girardo Lukas, Rahime Yilmaz, Krzysztof Sierszecki, Serkan Ayvaz</span>
     </div>
     <div class="paper-meta-line">
-      <span class="paper-venue">KDA-AI Workshop, IEEE ICSA 2026</span>
-      <span class="paper-status status-accepted">Accepted</span>
+      <span class="paper-venue">IEEE ICSA Companion 2026, pp. 361&ndash;368</span>
+      <span class="paper-status status-accepted">Published</span>
     </div>
     <button class="abstract-toggle" aria-expanded="false">
       <span class="abstract-label">Abstract</span>
@@ -60,15 +60,15 @@ comments: false
     </div>
   </div>
 
-  <div class="paper-item" data-href="/files/architecture-without-architects.pdf" role="link" tabindex="0">
-    <a class="paper-card-hitbox" href="/files/architecture-without-architects.pdf" aria-label="Open Architecture Without Architects paper PDF"></a>
+  <div class="paper-item" data-href="https://doi.org/10.1109/ICSA-C68850.2026.00087" role="link" tabindex="0">
+    <a class="paper-card-hitbox" href="https://doi.org/10.1109/ICSA-C68850.2026.00087" aria-label="Open Architecture Without Architects proceedings paper"></a>
     <h3 class="paper-title">Architecture Without Architects: How AI Coding Agents Shape Software Architecture</h3>
     <div class="paper-meta-line">
       <span class="paper-authors">Phongsakon Mark Konrad, <strong>Tim Lukas Adam</strong>, Riccardo Terrenzi, Serkan Ayvaz</span>
     </div>
     <div class="paper-meta-line">
-      <span class="paper-venue">SAGAI Workshop, IEEE ICSA 2026</span>
-      <span class="paper-status status-accepted">Accepted</span>
+      <span class="paper-venue">IEEE ICSA Companion 2026, pp. 463&ndash;468</span>
+      <span class="paper-status status-accepted">Published</span>
     </div>
     <button class="abstract-toggle" aria-expanded="false">
       <span class="abstract-label">Abstract</span>
@@ -81,15 +81,15 @@ comments: false
     </div>
   </div>
 
-  <div class="paper-item" data-href="/files/agentic-hybrid-retrieval.pdf" role="link" tabindex="0">
-    <a class="paper-card-hitbox" href="/files/agentic-hybrid-retrieval.pdf" aria-label="Open Agentic Hybrid Retrieval paper PDF"></a>
+  <div class="paper-item" data-href="https://doi.org/10.1109/ICSA-C68850.2026.00098" role="link" tabindex="0">
+    <a class="paper-card-hitbox" href="https://doi.org/10.1109/ICSA-C68850.2026.00098" aria-label="Open Agentic Hybrid Retrieval proceedings paper"></a>
     <h3 class="paper-title">A Reference Architecture for Agentic Hybrid Retrieval in Dataset Search</h3>
     <div class="paper-meta-line">
       <span class="paper-authors">Riccardo Terrenzi, Phongsakon Mark Konrad, <strong>Tim Lukas Adam</strong>, Serkan Ayvaz</span>
     </div>
     <div class="paper-meta-line">
-      <span class="paper-venue">SAML Workshop, IEEE ICSA 2026</span>
-      <span class="paper-status status-accepted">Accepted</span>
+      <span class="paper-venue">IEEE ICSA Companion 2026, pp. 542&ndash;548</span>
+      <span class="paper-status status-accepted">Published</span>
     </div>
     <button class="abstract-toggle" aria-expanded="false">
       <span class="abstract-label">Abstract</span>
