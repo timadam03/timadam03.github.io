@@ -551,13 +551,66 @@ a:hover {
   .home-layout { border-right: 0; border-left: 0; }
 
   .profile-sidebar {
-    grid-template-columns: 88px minmax(0, 1fr);
-    gap: 0 18px;
+    grid-template-columns: 72px minmax(0, 1fr);
+    gap: 0 16px;
     padding: 18px;
   }
 
-  .profile-details { display: block; }
-  .profile-details p { padding: 5px 0; border-bottom: 0; }
+  .profile-image {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+
+  .sidebar-name {
+    grid-column: 2;
+    grid-row: 1;
+    align-self: end;
+    margin-bottom: 3px;
+  }
+
+  .sidebar-role {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: start;
+    margin: 0;
+    font-size: 10px;
+  }
+
+  .profile-details {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 16px;
+    border-top: 1px solid var(--black);
+    border-bottom: 1px solid var(--black);
+  }
+
+  .profile-details p {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    padding: 8px 2px;
+    border-bottom: 0;
+    font-size: 9px;
+    white-space: nowrap;
+  }
+
+  .profile-details p:nth-child(1),
+  .profile-details p:nth-child(2) {
+    grid-column: 1 / -1;
+    justify-content: flex-start;
+    padding-right: 0;
+    padding-left: 0;
+    border-bottom: 1px solid var(--grey-300);
+    white-space: normal;
+  }
+
+  .profile-details p:nth-child(n + 3):not(:last-child) {
+    border-right: 1px solid var(--grey-300);
+  }
+
+  .profile-details i { flex: 0 0 auto; }
   .home-main { padding: 38px 18px 64px; }
   .profile-section { margin: 0; padding: 0; }
   .profile-name { margin-bottom: 16px; font-size: clamp(19px, 5.7vw, 24px); }
