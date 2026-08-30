@@ -27,7 +27,7 @@ comments: false
 <header class="profile-section">
   <div class="profile-copy">
     <h1 class="profile-name">Tim Lukas Adam</h1>
-    <p class="profile-lede">I recently completed a BSc in Software Engineering at the <a href="https://www.sdu.dk/en/">University of Southern Denmark</a> after an exchange semester at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, and will begin the MSc in Autonomous Systems at <a href="https://www.dtu.dk/english/">DTU</a> in September 2026. I currently work as a research collaborator with the <a href="https://aiml-sdu.github.io/">Applied and Interpretable Machine Learning Research Group</a>. My work so far has centered on language models, agentic systems, and applied AI.</p>
+    <p class="profile-lede">I recently completed a BSc in Software Engineering at the <a href="https://www.sdu.dk/en/">University of Southern Denmark (SDU)</a> after an exchange semester at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, and will begin the MSc in Autonomous Systems at the <a href="https://www.dtu.dk/english/">Technical University of Denmark (DTU)</a> in September 2026. I currently work as a research collaborator with the <a href="https://aiml-sdu.github.io/">Applied and Interpretable Machine Learning Research Group</a>. My work so far has centered on language models, agentic systems, and applied AI.</p>
   </div>
 </header>
 
