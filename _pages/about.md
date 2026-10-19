@@ -12,7 +12,7 @@ comments: false
     <img src="/images/profile.png" alt="Tim Lukas Adam" />
   </div>
   <h2 class="sidebar-name">Tim Lukas Adam</h2>
-  <p class="sidebar-role">Incoming MSc student in Autonomous Systems at DTU.</p>
+  <p class="sidebar-role">MSc student in Autonomous Systems at DTU.</p>
   <div class="profile-details">
     <p><i class="fas fa-location-dot"></i> Copenhagen / Hamburg</p>
     <p><i class="fas fa-building-columns"></i> Technical University of Denmark</p>
@@ -27,7 +27,7 @@ comments: false
 <header class="profile-section">
   <div class="profile-copy">
     <h1 class="profile-name">Tim Lukas Adam</h1>
-    <p class="profile-lede">I recently completed a BSc in Software Engineering at the <a href="https://www.sdu.dk/en/">University of Southern Denmark (SDU)</a> after an exchange semester at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, and will begin the MSc in Autonomous Systems at the <a href="https://www.dtu.dk/english/">Technical University of Denmark (DTU)</a> in September 2026. I currently work as a research collaborator with the <a href="https://aiml-sdu.github.io/">Applied and Interpretable Machine Learning Research Group</a>. My work so far has centered on language models, agentic systems, and applied AI.</p>
+    <p class="profile-lede">I recently completed a BSc in Software Engineering at the <a href="https://www.sdu.dk/en/">University of Southern Denmark (SDU)</a> after an exchange semester at the <a href="https://hkust.edu.hk/">Hong Kong University of Science and Technology (HKUST)</a>, and am now pursuing an MSc in Autonomous Systems at the <a href="https://www.dtu.dk/english/">Technical University of Denmark (DTU)</a>. I currently work as a research collaborator with the <a href="https://aiml-sdu.github.io/">Applied and Interpretable Machine Learning Research Group</a>. My work so far has centered on language models, agentic systems, and applied AI.</p>
   </div>
 </header>
 
