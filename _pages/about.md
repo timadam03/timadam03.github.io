@@ -148,7 +148,7 @@ comments: false
   <div class="project-item">
     <h3 class="project-title">Data Analysis for Transportation Systems</h3>
     <p class="project-meta">HKUST · Fall 2025</p>
-    <p class="project-desc">Studied how transfer times between buses, trains, and ferries vary across Sydney's public transport network. Using 54 million smart-card trips, we combined queueing models and machine learning to explain when and where passengers wait longest.</p>
+    <p class="project-desc">Studied how transfer times between buses, trains, and ferries vary across Sydney's public transport network. Combined queueing models and machine learning on 54 million smart-card trips to explain when and where passengers wait longest.</p>
   </div>
 </div>
 
