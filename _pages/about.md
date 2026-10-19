@@ -143,12 +143,12 @@ comments: false
   <div class="project-item">
     <h3 class="project-title">Automated Tag and Summary Generation for Audio/Video Content</h3>
     <p class="project-meta">SpeedAdmin · Spring 2025</p>
-    <p class="project-desc">SummaRay, a web application built with SpeedAdmin that automatically transcribes, summarizes, and tags lesson recordings for music schools. Developed in a team of six over six Scrum sprints, it runs locally hosted models (Whisper for transcription, Gemma for summaries and tags) behind a FastAPI backend, with a Next.js frontend and Supabase for authentication and storage. Long recordings are processed in smaller chunks to keep summaries accurate.</p>
+    <p class="project-desc">SummaRay, a tool built with SpeedAdmin that helps music schools organize their lesson recordings. It automatically transcribes, summarizes, and tags audio and video using AI models that run locally, so teachers can quickly find and reuse their content.</p>
   </div>
   <div class="project-item">
     <h3 class="project-title">Data Analysis for Transportation Systems</h3>
     <p class="project-meta">HKUST · Fall 2025</p>
-    <p class="project-desc">Group project for CIVL 4610 (Data Analytics for Smart Transportation Systems) on how intermodal transfer times vary across Sydney's public transport network. Built a data pipeline over 54 million smart-card trips from May 2018, linked with GTFS timetable data, and compared a queueing model with random forest and gradient-boosting models to explain transfer times by location, mode, and time of day.</p>
+    <p class="project-desc">Studied how transfer times between buses, trains, and ferries vary across Sydney's public transport network. Using 54 million smart-card trips, we combined queueing models and machine learning to explain when and where passengers wait longest.</p>
   </div>
 </div>
 
