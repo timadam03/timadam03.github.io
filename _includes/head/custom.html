@@ -1,15 +1,18 @@
-<meta name="theme-color" content="#ffffff"/>
+<meta name="theme-color" content="#faf4ed"/>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap');
 
 :root {
-  --black: #090909;
-  --white: #ffffff;
-  --grey-050: #f7f7f5;
-  --grey-300: #b9b9b5;
-  --grey-600: #62625e;
-  --line: #e2e2de;
+  /* Warm tones and teal-blue accent borrowed from the Rose Pine Dawn palette */
+  --black: #3e3a56;
+  --white: #faf4ed;
+  --grey-050: #f2e9e1;
+  --grey-300: #c4bdc4;
+  --grey-600: #797593;
+  --line: #e4ddd8;
+  --accent: #286983;
+  --accent-soft: #56949f;
   --sans: 'IBM Plex Sans', -apple-system, 'Helvetica Neue', Arial, sans-serif;
   --mono: 'IBM Plex Mono', 'SFMono-Regular', Consolas, monospace;
 }
@@ -39,24 +42,24 @@ body::before {
 }
 
 a {
-  color: inherit;
-  text-decoration-color: var(--grey-300);
+  color: var(--accent);
+  text-decoration-color: var(--accent-soft);
   text-decoration-thickness: 1px;
   text-underline-offset: 0.2em;
 }
 
 a:hover {
-  color: var(--grey-600);
-  text-decoration-color: var(--grey-600);
+  color: var(--accent-soft);
+  text-decoration-color: var(--accent-soft);
 }
 
-::selection { color: var(--white); background: var(--black); }
+::selection { color: var(--white); background: var(--accent); }
 :focus-visible { outline: 2px dashed var(--black); outline-offset: 4px; }
 
 .masthead {
   position: static !important;
   height: 3px;
-  background: var(--black);
+  background: var(--accent-soft);
   border: 0;
 }
 
