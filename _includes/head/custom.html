@@ -5,7 +5,7 @@
 
 :root {
   /* Teal-blue accent borrowed from the Rose Pine Dawn palette */
-  --black: #1f2328;
+  --black: #111111;
   --white: #ffffff;
   --grey-050: #f6f7f8;
   --grey-300: #c4c8cc;
@@ -42,15 +42,15 @@ body::before {
 }
 
 a {
-  color: var(--accent);
-  text-decoration-color: var(--accent-soft);
+  color: inherit;
+  text-decoration-color: var(--grey-300);
   text-decoration-thickness: 1px;
   text-underline-offset: 0.2em;
 }
 
 a:hover {
-  color: var(--accent-soft);
-  text-decoration-color: var(--accent-soft);
+  color: var(--accent);
+  text-decoration-color: var(--accent);
 }
 
 ::selection { color: var(--white); background: var(--accent); }
