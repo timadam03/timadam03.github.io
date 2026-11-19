@@ -138,6 +138,10 @@ comments: false
   <div class="project-item">
     <h3 class="project-title">Heimdall: Only the Safe Shall Pass</h3>
     <p class="project-meta">Bachelor Thesis · Danfoss · 2026</p>
+    <div class="project-links">
+      <a href="https://phomarkon.github.io/heimdall-page/">Project page</a>
+      <a href="https://github.com/phomarkon/heimdall-src">Code</a>
+    </div>
     <p class="project-desc">A conformal verifier between autonomous bidders and the Nordic electricity balancing market. Co-developed as an end-to-end system combining probabilistic forecasting, conformal prediction, and LLM-based bidding agents to make market bids safer and auditable. <strong>Awarded best bachelor thesis in the SDU Software Engineering programme and nominated for Best TEK Bachelor Thesis 2026.</strong></p>
   </div>
   <div class="project-item">
